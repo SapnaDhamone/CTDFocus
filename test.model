@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="US-ASCII" standalone="no"?>
+<!DOCTYPE focus-model [
+]>
+<!----><focus-model atcFilePath="" auxDataFilesFolder="" classifyAttributesEnabled="false" inputOutput="false" manual="true">
+<model-identification modelTag="@test @test @test">
+<model-identification-field name="Application Name" partOfTag="true" value="test"/>
+<model-identification-field name="Application code version #" partOfTag="true" value="test"/>
+<model-identification-field name="Application Function" partOfTag="true" value="test"/>
+<model-identification-field name="Updated Reason" partOfTag="false" value="New Model"/>
+<model-identification-field name="Created By" partOfTag="false" value="sdhamone@in.ibm.com"/>
+<model-identification-field name="Created Date and Time" partOfTag="false" value="29 Jun 2017 07:55:49"/>
+<model-identification-field name="Updated By" partOfTag="false" value="sdhamone@in.ibm.com"/>
+<model-identification-field name="Updated Date and Time" partOfTag="false" value="29 Jun 2017 07:55:49"/>
+<model-identification-field name="Application Sub Function" partOfTag="false" value=""/>
+<model-identification-field name="Test Stage" partOfTag="false" value=""/>
+<model-identification-field name="Criticality" partOfTag="false" value=""/>
+<model-identification-field name="Project" partOfTag="false" value=""/>
+<model-identification-field name="Epic" partOfTag="false" value=""/>
+<model-identification-field name="Feature" partOfTag="false" value=""/>
+<model-identification-field name="User Story" partOfTag="false" value=""/>
+</model-identification>
+<attribute attr_class="NONE" dependencies="false" description="" iotype="NEITHER" name="test" type="BOOLEAN">
+<value name="true" weight="1"/>
+<value name="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" iotype="NEITHER" name="test1" type="BOOLEAN">
+<value name="true" weight="1"/>
+<value name="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" iotype="NEITHER" name="test2" type="BOOLEAN">
+<value name="true" weight="1"/>
+<value name="false" weight="1"/>
+</attribute>
+<coverage-reqs-sets defaultCoverageRequirementsSet="icr">
+<coverage-reqs-set description="icr" name="icr">
+<coverage-req>
+<attribute name="test"/>
+<attribute name="test1"/>
+<attribute name="test2"/>
+<coverage-goal coverage-goal-val="2"/>
+</coverage-req>
+</coverage-reqs-set>
+</coverage-reqs-sets>
+<neg-coverage-reqs-sets defaultCoverageRequirementsSet="SingleNegativeCoverageRequirementsSet" isAutoNegCoverageRequirements="true">
+<coverage-reqs-set description="" name="SingleNegativeCoverageRequirementsSet"/>
+</neg-coverage-reqs-sets>
+<focus-ctd-decoration decorationType="freeStyle"/>
+<focus-ctd-model-sync>
+<focus-ctd-model-sync-mult/>
+<focus-ctd-model-sync-na/>
+</focus-ctd-model-sync>
+</focus-model>
